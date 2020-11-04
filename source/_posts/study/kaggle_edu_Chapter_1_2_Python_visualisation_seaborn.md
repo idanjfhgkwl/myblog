@@ -3,7 +3,7 @@ title: "Chapter_1_2_Python_visualisation_seaborn"
 #author: "JustY"
 #date: '2020 10 30 '
 categories:
-  - kaggle_edu
+  - study
 output: 
   html_document:
     keep_md: true

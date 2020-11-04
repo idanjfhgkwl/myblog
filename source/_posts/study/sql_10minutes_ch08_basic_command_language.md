@@ -3,7 +3,7 @@ title: "8장 기본 명령어"
 #author: "JustY"
 #date: '2020 10 30 '
 categories:
-  - sql_10minutes
+  - study
 output: 
   html_document:
     keep_md: true
