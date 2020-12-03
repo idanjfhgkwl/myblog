@@ -2,7 +2,7 @@
 title: "PyQt5 Tutorial - PyQt5 기초 (Basics)"
 categories:
   - study
-output: 
+output:
   html_document:
     keep_md: true
 ---
@@ -16,8 +16,6 @@ output:
 
 
 ```python
-## Ex 3-1. 창 띄우기.
-
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget
 
@@ -97,8 +95,6 @@ if __name__ == '__main__':
 
 
 ```python
-## Ex 3-2. 어플리케이션 아이콘 넣기.
-
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget
 from PyQt5.QtGui import QIcon
@@ -126,3 +122,84 @@ if __name__ == '__main__':
 ### 결과
 
 ![K-20201125-102840](https://user-images.githubusercontent.com/72365720/100170477-206a9880-2f09-11eb-90ac-08ae42a02a40.png)
+
+### 설명
+
+
+```python
+self.setWindowIcon(QIcon('image/web.png'))
+```
+
+**`setWindowIcon()`** 메소드는 어플리케이션 아이콘을 설정하도록 한다.  
+이를 위해서 QIcon 객체를 생성했고, QIcon()에 보여질 이미지를 입력한다. (경로 확인)  
+
+
+```python
+self.setGeometry(300, 300, 300, 200)
+```
+
+**`setGeometry()`** 메소드는 창의 위치와 크기를 설정한다.  
+앞의 두 매개변수는 창의 x, y 위치를 결정하고, 뒤의 두 매개변수는 각각 창의 너비와 높이를 결정한다. 이 메소드는 창 띄우기 예제에서 사용했던 move()와 resize() 메서드를 하나로 합쳐놓은 것과 같다.
+
+## 창 닫기
+출처: [Codetorial](https://codetorial.net/pyqt5/basics/closing.html)
+
+### 예제
+
+
+```python
+import sys
+from PyQt5.QtWidgets import QApplication, QWidget, QPushButton
+from PyQt5.QtCore import QCoreApplication
+
+
+class MyApp(QWidget):
+
+    def __init__(self):
+        super().__init__()
+        self.initUI()
+
+    def initUI(self):
+        btn = QPushButton('Quit', self)
+        btn.move(50, 50)
+        btn.resize(btn.sizeHint())
+        btn.clicked.connect(QCoreApplication.instance().quit)
+
+        self.setWindowTitle('Quit Button')
+        self.setGeometry(300, 300, 300, 200)
+        self.show()
+
+
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    ex = MyApp()
+    sys.exit(app.exec_())
+```
+
+### 설명
+
+
+```python
+btn = QPushButton('Quit', self)
+```
+
+푸시버튼을 하나 만든다. 이 btn은 QPushButton 클래스의 인스턴스이다.  
+첫번째 파라미터에는 버튼에 표시될 텍스트(Quit)를 입력하고, 두번째 파라미터에는 버튼이 위치할 부모 위젯(self)을 입력한다.
+
+
+```python
+btn.clicked.connect(QCoreApplication.instance().quit)
+```
+
+PyQt5에서의 이벤트 처리는 시그널과 슬롯 메커니즘으로 이루어진다. btn을 클릭하면 `clicked` 시그널이 만들어진다.
+
+**`instance()`** 메소드는 현재 인스턴스를 반환한다.
+
+**`clicked`** 시그널은 어플리케이션을 종료하는 quit() 메소드에 연결된다.
+
+이렇게 두 객체 발신자와 수신자(Sender & Receiver) 간에 커뮤니케이션이 이루어잔다. 이 예제에서 발신자는 푸시버튼(btn)이고, 수신자는 어플리케이션 객체(app)이다.
+
+![K-20201126-155725](https://user-images.githubusercontent.com/72365720/100317677-19728180-3000-11eb-916d-1a23c1e65568.png)
+
+
+## 툴팁 나타내기
