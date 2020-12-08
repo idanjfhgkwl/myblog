@@ -1,13 +1,18 @@
 ---
 title: "Hello Coding 한입에 쏙 파이썬"
-#author: "JustY"
-#date: '날짜'
 categories:
   - study
 output: 
   html_document:
     keep_md: true
 ---
+
+출처: 김왼손, 김태간, 『Hello Coding 한입에 쏙 파이썬』, 한빛미디어, 2018.06
+
+<details markdown="1">
+<summary>접기/펼치기</summary>
+
+<!--summary 아래 빈칸 공백 두고 내용을 적는공간-->
 
 ```python
 # 코드 1-1 ‘Hello World!’를 출력하는 코드
@@ -6359,4 +6364,4 @@ help('modules')
     Enter any module name to get more help.  Or, type "modules spam" to search
     for modules whose name or summary contain the string "spam".
     
-    
+</details>

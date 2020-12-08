@@ -7,6 +7,14 @@ output:
     keep_md: true
 ---
 
+출처: 김민휘, PyQt5 Tutorial - 파이썬으로 만드는 나만의 GUI 프로그램, Codetorial
+https://codetorial.net/pyqt5/basics/opening.html
+
+<details markdown="1">
+<summary>접기/펼치기</summary>
+
+<!--summary 아래 빈칸 공백 두고 내용을 적는공간-->
+
 # PyQt5 기초 (Basics)
 
 ## 창 띄우기
@@ -203,3 +211,5 @@ PyQt5에서의 이벤트 처리는 시그널과 슬롯 메커니즘으로 이루
 
 
 ## 툴팁 나타내기
+
+</details>

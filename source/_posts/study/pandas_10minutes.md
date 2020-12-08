@@ -1,14 +1,19 @@
 ---
 title: "판다스 10분 완성"
-#author: "JustY"
-#date: '2020 11 02'
 categories:
   - study
 output: 
   html_document:
     keep_md: true
-marp: false
 ---
+
+출처: 데잇걸즈2, Pandas 10분 완성
+https://dataitgirls2.github.io/10minutes2pandas/
+
+<details markdown="1">
+<summary>접기/펼치기</summary>
+
+<!--summary 아래 빈칸 공백 두고 내용을 적는공간-->
 
 <a href="https://colab.research.google.com/github/idanjfhgkwl/myblog/blob/master/source/_posts/pandas_10minutes/pandas_10minutes.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
@@ -4904,3 +4909,4 @@ if pd.Series([False, True, False])is not None:
 
     I was not None
     
+</details>

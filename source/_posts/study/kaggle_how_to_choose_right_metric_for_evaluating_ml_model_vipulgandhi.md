@@ -7,6 +7,14 @@ output:
     keep_md: true
 ---
 
+출처: Vipul Gandhi, How to Choose Right Metric for Evaluating ML Model, 캐글, 2020.01.06
+https://www.kaggle.com/vipulgandhi/how-to-choose-right-metric-for-evaluating-ml-model
+
+<details markdown="1">
+<summary>접기/펼치기</summary>
+
+<!--summary 아래 빈칸 공백 두고 내용을 적는공간-->
+
 # ML 모델 을 평가하기 위한 올바른 측정 항목을 선택하는 방법
 (How to Choose Right Metric for Evaluating ML Model)
 
@@ -298,3 +306,5 @@ logloss_logreg, logloss_SGD, logloss_rfc
 ### 다중 라벨 분류
 
 ### 다중 출력 분류
+
+</details>

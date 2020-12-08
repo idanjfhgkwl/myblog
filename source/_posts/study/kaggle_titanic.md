@@ -1,14 +1,19 @@
 ---
 title: "캐글 타이타닉 분석"
-#author: "JustY"
-#date: '2020 11 02'
 categories:
   - study
 output: 
   html_document:
     keep_md: true
-marp: false
 ---
+
+출처: colab, 전태균님의 타이타닉 분석
+https://www.kaggle.com/daehungwak/guide-kor-dg
+
+<details markdown="1">
+<summary>접기/펼치기</summary>
+
+<!--summary 아래 빈칸 공백 두고 내용을 적는공간-->
 
 # 사전 준비
 
@@ -1334,3 +1339,5 @@ plt.show()
 ### Cabin
 
 ### Ticket
+
+</details>

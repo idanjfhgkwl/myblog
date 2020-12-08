@@ -1,14 +1,19 @@
 ---
 title: "Seaborn with Matplotlib"
-#author: "JustY"
-#date: '날짜'
 categories:
   - study
 output: 
   html_document:
     keep_md: true
-marp: false
 ---
+
+출처: Pega Devlog
+https://jehyunlee.github.io/
+
+<details markdown="1">
+<summary>접기/펼치기</summary>
+
+<!--summary 아래 빈칸 공백 두고 내용을 적는공간-->
 
 # seaborn + matplotlib
 
@@ -346,3 +351,5 @@ fig.tight_layout()
 - 이런 명령어를 **axes-lebel function**이라고 한다.
 
 # seaborn + matplotlib을 이용한 jointplot 보완
+
+</details>

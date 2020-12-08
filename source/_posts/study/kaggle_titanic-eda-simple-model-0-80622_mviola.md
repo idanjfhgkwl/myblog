@@ -7,6 +7,14 @@ output:
     keep_md: true
 ---
 
+출처: Massimiliano Viola, Titanic EDA + Simple Model [0.80622], 캐글, 2020-09-10
+https://www.kaggle.com/mviola/titanic-eda-simple-model-0-80622
+
+<details markdown="1">
+<summary>접기/펼치기</summary>
+
+<!--summary 아래 빈칸 공백 두고 내용을 적는공간-->
+
 # Titanic EDA + Simple Model [0.80622]
 
 ## Introduction
@@ -1565,3 +1573,5 @@ print('Your submission was successfully saved!')
 당신은이 작업을 수행하는 방법에 관심이 있다면, 여기 당신이 도달 0.82775가 (검사 할 수 있음을 내 다른 노트북 찾을 수 이 지금은 최고 점수의 몇 가지 아이디어를 가지고뿐만 아니라 아웃).  
 지금은이 노트북이 유용했거나 마음에 들었다면 알려주세요. 정말 감사하겠습니다!  
 이 대회에 행운을 빕니다. 다음 대회에서 만나요.
+
+</details>

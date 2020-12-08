@@ -7,6 +7,14 @@ output:
     keep_md: true
 ---
 
+출처: Jason Brownlee, Tour of Evaluation Metrics for Imbalanced Classification, Machine Learning Mastery, 2020.01.08
+https://machinelearningmastery.com/tour-of-evaluation-metrics-for-imbalanced-classification/
+
+<details markdown="1">
+<summary>접기/펼치기</summary>
+
+<!--summary 아래 빈칸 공백 두고 내용을 적는공간-->
+
 # 불균형 분류에 대한 평가 지표 둘러보기
 (Tour of Evaluation Metrics for Imbalanced Classification)
 
@@ -80,3 +88,5 @@ output:
 (Threshold Metrics for Imbalanced Classification)
 
 ## How to Choose an Evaluation Metric
+
+</details>

@@ -7,6 +7,16 @@ output:
     keep_md: true
 ---
 
+출처: 권철민, 『파이썬 머신러닝 완벽 가이드 (개정판)』, 위키북스, 2020.02, 148-182쪽
+
+![](/images/book/K372637591_f.jpg)
+[![](/images/bookstore/yes24.png)](http://www.yes24.com/Product/Goods/87044746) [![](/images/bookstore/kyobo.png)](http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9791158391928) [![](/images/bookstore/interpark.png)](http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=328045193) [![](/images/bookstore/aladin.png)](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=229787634)
+
+<details markdown="1">
+<summary>접기/펼치기</summary>
+
+<!--summary 아래 빈칸 공백 두고 내용을 적는공간-->
+
 # Chapter 03. 평가
 - **머신러닝 구성**: 데이터 가공/변환, 모델 학습/예측, 평가(Evaluation) 프로세스로 구성  
 - **성능 평가 지표(Evaluation Metric)**: 모델이 분류인지 회귀인지에 따라 여러 종류로 나뉨  
@@ -1508,3 +1518,5 @@ get_clf_eval(y_test, pred_th_048)
   - 정밀도와 재현율이 어느 한쪽으로 치우치지 않을 때 높은 지표값을 가짐
   - ROC_AUC는 일반적으로 이진 분류의 성능 평가를 위해 가장 많이 사용되는 지표
   - AUC(Area Under Curve) 값은 ROC 곡선 밑의 면적을 구한 것(일반적으로 1에 가까울수록 좋은 수치)
+
+</details>

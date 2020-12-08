@@ -7,6 +7,14 @@ output:
     keep_md: true
 ---
 
+출처: Yaroslav Isaienkov, Cassava Leaf Disease - Exploratory Data Analysis, 캐글, 2020.11.29
+https://www.kaggle.com/ihelon/cassava-leaf-disease-exploratory-data-analysis
+
+<details markdown="1">
+<summary>접기/펼치기</summary>
+
+<!--summary 아래 빈칸 공백 두고 내용을 적는공간-->
+
 # 구글 연동 (생략)
 
 
@@ -584,3 +592,5 @@ If you submit the result for evaluation, you will get an accuracy of 0.614 on a 
 This may indicate that there is also an imbalance of classes on the public test distribution.
 
 # WORK IN PROGRESS...
+
+</details>

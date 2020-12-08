@@ -215,7 +215,7 @@ widgets:
     -
         # Where should the widget be placed, left sidebar or right sidebar
         position: left
-        type: profile
+        type: #profile #adsense
         # Author name
         author: Your name
         # Author title

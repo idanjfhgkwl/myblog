@@ -1,14 +1,18 @@
 ---
 title: "캐글 Home Credit Default Risk 분석"
-#author: "JustY"
-#date: '날짜'
 categories:
   - study
 output: 
   html_document:
     keep_md: true
-marp: false
 ---
+
+출처: Will Koehrsen, Introduction to Manual Feature Engineering, 캐글, 2018.08.01
+
+<details markdown="1">
+<summary>접기/펼치기</summary>
+
+<!--summary 아래 빈칸 공백 두고 내용을 적는공간-->
 
 # 사전 준비
 
@@ -1184,3 +1188,5 @@ kde_target('previous_loan_counts', train)
 # Modeling
 
 # Results
+
+</details>

@@ -7,6 +7,16 @@ output:
     keep_md: true
 ---
 
+출처: 권철민, 『파이썬 머신러닝 완벽 가이드 (개정판)』, 위키북스, 2020.02, 290-376쪽
+
+![](/images/book/K372637591_f.jpg)
+[![](/images/bookstore/yes24.png)](http://www.yes24.com/Product/Goods/87044746) [![](/images/bookstore/kyobo.png)](http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9791158391928) [![](/images/bookstore/interpark.png)](http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=328045193) [![](/images/bookstore/aladin.png)](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=229787634)
+
+<details markdown="1">
+<summary>접기/펼치기</summary>
+
+<!--summary 아래 빈칸 공백 두고 내용을 적는공간-->
+
 # **5장 회귀**
 
 ## **01. 회귀 소개**
@@ -230,7 +240,7 @@ def gradient_descent_steps(X, y, iters=10000):
     return w1, w0
 ```
 
-**- 예측 오차 비용을 계산을 수행하는 함수 생성 및 경사 하강법 수행**
+**- 예측 오차 비용을 계산을 수행하는 함수 생성 및 경사하강법 수행**
 
 
 ```python
@@ -3929,3 +3939,5 @@ print('스태킹 회귀 모델의 최종 RMSE 값은:', rmse)
 + CART 기반의 회귀 트리
 + 왜곡도 개선을 위한 데이터 변환과 원-핫 인코딩
 + 실습 예제를 통한 데이터 정제와 변환 그리고 선형회귀/회귀트리/혼합모델/스태킹 모델 학습/예측/평가비교
+
+</details>

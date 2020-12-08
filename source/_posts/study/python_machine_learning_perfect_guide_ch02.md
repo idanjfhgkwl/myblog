@@ -7,6 +7,16 @@ output:
     keep_md: true
 ---
 
+출처: 권철민, 『파이썬 머신러닝 완벽 가이드 (개정판)』, 위키북스, 2020.02, 87-147쪽
+
+![](/images/book/K372637591_f.jpg)
+[![](/images/bookstore/yes24.png)](http://www.yes24.com/Product/Goods/87044746) [![](/images/bookstore/kyobo.png)](http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9791158391928) [![](/images/bookstore/interpark.png)](http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=328045193) [![](/images/bookstore/aladin.png)](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=229787634)
+
+<details markdown="1">
+<summary>접기/펼치기</summary>
+
+<!--summary 아래 빈칸 공백 두고 내용을 적는공간-->
+
 # 사이킷런으로 시작하는 머신러닝
 
 ## 정리
@@ -3407,3 +3417,5 @@ print('테스트 세트에서의 DecisionTreeClassifier 정확도 : {0:.4f}'.for
     
 
 하이퍼 파라미터인 max_depth=3, min_samples_leaf=1, min_samples_split=2로 DecisionTreeClassifier를 학습시킨 뒤 예측 정확도가 약 87.15%로 향상됐다. 일반적으로 하이퍼 파라미터를 듀닝하더라고 이 정도 수준으로 증가하기는 어렵다. 테스트용 데이터 세트가 작기 때문에 수치상으로 예측 성능이 많이 증가 한것처럼 보인다.
+
+</details>
